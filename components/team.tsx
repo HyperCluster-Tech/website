@@ -4,22 +4,18 @@ export default function Team() {
   const team = [
     {
       name: "Samarth P",
-      role: "AI Research Lead",
       image: "/samarth.jpeg",
     },
     {
       name: "Vyoman Jain",
-      role: "ML Engineer",
       image: "/vyoman.jpg",
     },
     {
       name: "Sai Sathvik",
-      role: "Research Scientist",
       image: "/sai_sathvik.jpeg",
     },
     {
       name: "Shiva Golugula",
-      role: "Data Scientist",
       image: "/shiva.jpeg",
     },
   ];
@@ -46,7 +42,6 @@ export default function Team() {
                   />
                 </div>
                 <h3 className="text-xl font-semibold mb-1">{member.name}</h3>
-                <p className="text-gray-400">{member.role}</p>
               </div>
             </div>
           ))}
