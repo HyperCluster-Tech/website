@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "HyperCluster",
   description: "Student-led AI research lab building open-source projects",
+  metadataBase: new URL("https://www.hypercluster.tech"),
 };
 
 export default function RootLayout({

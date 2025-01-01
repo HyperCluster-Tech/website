@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import { Github } from "lucide-react";
 
 export default function Header() {
   return (
@@ -17,6 +18,9 @@ export default function Header() {
             </span>
           </Link>
           <div className="hidden md:flex items-center space-x-8">
+            <Link href="https://github.com/HyperCluster-Tech">
+              <Github className="h-6 w-6" />
+            </Link>
             <Link
               href="/projects"
               className="text-sm text-gray-300 hover:text-white transition-colors"
