@@ -2,7 +2,7 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { Card, CardContent } from "@/components/ui/card";
 import Link from "next/link";
-import { Twitter, Github, Mail, Bot } from "lucide-react";
+import { Twitter, Github, Mail } from "lucide-react";
 
 export default function Home() {
   const contacts = [
