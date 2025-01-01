@@ -11,7 +11,7 @@ export default function Projects() {
     {
       title: "manimator",
       description:
-        "An AI tool that converts research papers or user prompts into the 3Blue1Brown style visual mathematical explanatory video",
+        "An AI tool that converts research papers or user prompts into visual mathematical explanatory video using the Manim engine.",
       image: "/manimator.png",
       tags: ["Manim", "Visualization", "Research"],
       github: "https://github.com/HyperCluster-Tech/manimator",
